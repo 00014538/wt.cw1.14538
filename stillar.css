@@ -1,0 +1,417 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*main styling*/
+html, body {
+  font-family: sans-serif;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1, h2, h3{
+     padding-bottom: 20px;
+
+}
+p{
+  margin: 10px 0;
+}
+#navbar {
+  background-color: #333;
+  color: #fff;
+  overflow: auto;    
+}
+#navbar a{
+  color: #fff;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li{
+  float: left;
+}
+#navbar ul li a{
+  display: inline-block;
+  padding: 25px;
+}
+#navbar ul li a:hover,
+ #navbar ul li a.current{
+  background-color: blue;
+  color: coral;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+.text-primary {
+  color: blue;
+}
+.lead{
+  font-size: 20px;
+}
+.btn{
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background-color: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: gray;
+  color: #333;
+}
+.btn-light{
+  background-color: #f4f4f4;
+  color: #333;
+}
+.btn-dark{
+  background-color: #333;
+  color: white;
+}
+.bg-dark{
+  background-color: #333;
+  color: white;
+}
+.bg-light{
+  background-color: #f4f4f4;
+  color: #333;
+}
+.bg-primary{
+  background-color: #f7c08a;
+  color: #333;
+}
+.clr{
+  clear: both;
+}
+/*showcase section*/
+#showcase{
+  background-image: url(background_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+#showcase .showcase-content{
+  text-align: center;
+  color: #fff;
+    padding-top: 170px;
+}
+#showcase h1{
+  font-size: 60px;
+}
+#showcase p{
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+#home-info{
+  height: 400px;
+}
+#home-info .info-img{
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-image: url(insidehotel.jpg)
+}
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+
+}
+#home-info .info-content p{
+  padding-bottom: 20px;
+  font-size: 18px;
+
+}
+#main-footer {
+  text-align: center;
+  background-color: #444;
+  color: white;
+  padding: 20px;
+}
+/*about us page*/
+#about-info{
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+#about-info .info-right{
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img{
+  display: block;
+  margin: auto;
+  width: 60%;
+  border-radius: 50%;
+}
+#about-info .info-left{
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+/*test section*/
+
+#tests{
+  height: 600px;
+  padding-top: 100px;
+  background-image: url(background_image2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tests h2{
+  color: black;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 34px;
+}
+#tests .test{
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 1px;
+  opacity: 0.9;
+  width: 800px;
+  margin-left: 100px;
+}
+
+#tests .test img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+#tests .test img:hover{
+  transform: scale(2.2);
+  z-index: 2;
+}
+/*cotact us page*/
+#contact-form{
+  padding: 20px 0;
+}
+#contact-form h1{
+  font-size: 32px;
+}
+#contact-form .form-group{
+  margin-bottom: 20px;
+}
+#contact-form label{
+  display: block;
+  margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+#contact-info{
+  display: inline-block;
+  width: 100%;
+}
+.box {
+  margin-right: 125px;
+  display: inline-block;
+  
+}
+.box:hover{
+  transform: scale(1.3);
+  z-index: 2;
+  color: coral;
+}
+/*Tours page*/
+
+#Tours{
+  background-image: url(./Tours1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+}
+#Tours .Tours-content{
+  text-align: center;
+  color: #fff;
+    padding-top: 170px;
+}
+#Tours h1{
+  font-size: 60px;
+}
+#Tours h2{
+  font-size: 65px;
+  padding: 110px;
+}
+#Tours h2:hover{
+  color: red;
+}
+.about-left h2:hover{
+  transform: scale(1.1);
+  z-index: 1;
+  color: coral;
+}
+/*section part*/
+#Tour-info{
+  height: 450px;
+}
+#Tour-info .Tour-img{
+  float: right;
+  width: 65%;
+  height: 100%;
+  background-image: url(./Thematicimg1.jpg)
+}
+#Tour-info .Tour-content h2{
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#Tour-info .Tour-content p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.about-left h2{
+  text-align: center;
+  font-size: 30px;
+}
+.about-left p{
+  font-size: 20px;
+  text-align: center;
+}
+.about-left p:hover{
+  color: coral;
+  background-color: #333;
+  
+}
+/* room part*/
+#room-part h1{
+  font-size: 50px;
+  padding-top: 50px;
+}
+#room-part h2{
+  text-align: center;
+  font-size: 35px;
+  
+}
+#room-part h2:hover{
+  color: blue;
+  background-color: #333;
+  transform: scale(1.3);
+  z-index: 2;
+}
+#room-part p{
+  font-size: 20px;
+  padding-top: -30px;
+}
+.room1 img{
+  width: 400px;
+  height: 400px;
+}
+
+.room2 img{
+  width: 400px;
+  height: 400px;
+}
+.room3 img{
+  width: 400px;
+  height: 400px;
+}
+.room-pic,.room1,.room2,.room3{
+  display: inline-block;
+  margin-top: 20px;
+}
+.room-pic p:hover{
+color: red;
+background-color: #444;
+}
+/*services*/
+body,.service{
+  background: #f1f1f1;
+  font-family: sans-serif;
+}
+.services{
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.services h1{
+  font-size: 48px;
+  margin: 30px;
+  text-align: center;
+}
+.services p{
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.services,.container h3{
+  text-align: center;
+}
+.ser-box{
+  height: 150px;
+  width: 500px;
+  border-radius: 20px;
+  background: #fff;
+  border-top: 1px solid rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+}
+.ser-box:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+.ser-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.icon i{
+  font-size: 60px;
+  color: red;
+}
+.details{
+  height: 110px;
+}
+.details h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.details{
+  text-align: left;
+}
+
+/*** resposive desig***/
+.slowmo{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+    border: none;
+}
+.slowmo.active{
+    transform: translateY(0);
+    opacity: 1;
+}
